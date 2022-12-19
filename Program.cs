@@ -1,18 +1,18 @@
 ﻿// Задача 1: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
-int a = 100;
-int b = 183;
 
-int max = a;
-int min = b;
 
-if(a > max) max = a;
-if(b > max) max = b;
+Console.WriteLine("Введите число a: ");
+int num_A = Convert.ToInt32(Console.ReadLine());
 
-if(a < min) min = a;
-if(b < min) min = b;
+Console.WriteLine("Введите число b: ");
+int num_B = Convert.ToInt32(Console.ReadLine());
 
-Console.Write ("Минимум, ");
-Console.WriteLine (min);
-
-Console.Write ("Максимум, ");
-Console.WriteLine (max);
+if (num_A > num_B)
+{
+    Console.WriteLine("a " + num_A + " > b " + num_B);
+}
+else
+{
+    Console.WriteLine("b " + num_B + " > a " + num_A);
+}
+// Задача 2: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
