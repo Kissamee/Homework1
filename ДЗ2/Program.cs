@@ -1,2 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Семинар № 2.
+
+// Задача 1: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+
+Console.WriteLine("Введите трёхзначное число:");
+int n = Convert.ToInt32(Console.ReadLine());
+
+if (n >= 100 && n <= 999)
+{
+    int num_B = (n % 100 / 10);
+    Console.WriteLine(num_B);
+}
+else
+{
+    Console.WriteLine("Введенное число не является трехзначным");
+}
+
+
+// Задача 2: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
