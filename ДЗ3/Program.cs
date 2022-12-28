@@ -23,4 +23,30 @@ else
 
 //Задача 2 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
+/*
+Console.Write("Введите координаты первой точки x, ");
+double x = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координаты первой точки y, ");
+double y = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координаты первой точки z, ");
+double z = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите координаты второй точки x1, ");
+double x1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координаты второй точки y1, ");
+double y1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координаты второй точки z1, ");
+double z1 = Convert.ToInt32(Console.ReadLine());
+
+double a = (x1 - x) ;
+double b = (y1 - y) ;
+double c = (z1 - z) ;
+
+double length = Math.Sqrt(a * a + b * b + c * c) ;
+double length2 = Math.Round( length, 2 ) ;
+Console.WriteLine($"Длинна отрезка {length2}") ;
+
+*/
+
+//Задача 3 Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N. 
 
