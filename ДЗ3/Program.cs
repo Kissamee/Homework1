@@ -50,3 +50,16 @@ Console.WriteLine($"Длинна отрезка {length2}") ;
 
 //Задача 3 Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N. 
 
+
+
+int n = ReadInt("Введите число, ");
+
+for (int i = 1; i <= n; i++)
+{
+    Console.Write($"{i * i * i}, ");
+}
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
