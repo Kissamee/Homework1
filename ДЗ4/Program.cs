@@ -27,19 +27,17 @@ int ReadInt(string message)
 
 // Задача № 2 Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
+/*
 int number = ReadInt("Введите число: ");
 int len = NumberLen(number);
 SumNumbers(number, len);
 
-
-// Функция ввода
 int ReadInt(string message)
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
 
-// Функция подсчета цифр в числе
 int NumberLen(int a)
 {
     int index = 0;
@@ -51,7 +49,6 @@ int NumberLen(int a)
     return index;
 }
 
-// Функция вывода суммы цифр в числе
 void SumNumbers(int n, int len)
 {
     int sum = 0;
@@ -62,3 +59,24 @@ void SumNumbers(int n, int len)
     }
     Console.WriteLine(sum);
 }
+*/
+
+//Задача № 3 Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
+
+/*
+int lenArray = ReadInt("Введите длинну массива: ");
+
+int[] randomArray = new int[lenArray];
+for (int i = 0; i < randomArray.Length; i++)
+{
+    randomArray[i] = new Random().Next(1,9);
+    Console.Write(randomArray[i] + " ");
+}
+
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
+
+*/
